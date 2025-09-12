@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio of Gagan Kaushal - Web Developer skilled in HTML, CSS, JavaScript, React, Node.js, and MongoDB. Explore my projects and contact me.">
+    <title>Portfolio | Gagan Kaushal</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/1e72e521bb.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="navbar">
+        <h2>Gagan Kaushal</h2>
+
+        <button id="menuBtn" aria-label="Menu">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <div class="links">
+            <a href="#home"><i class="fa-regular fa-house"></i>Home</a>
+            <a href="#about"><i class="fa fa-user"></i>About</a>
+            <a href="#skills"><i class="fa fa-code"></i>Skills</a>
+            <a href="#projects"><i class="fa fa-folder"></i>Projects</a>
+            <a href="#contact"><i class="fa fa-envelope"></i>Contact</a>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="left">
+            <img src="images/img.jpg" alt="" id="img" />
+        </div>
+        <div class="right">
+            <h1 class="heading">Hi, I'm Gagan Kaushal,</h1>
+            <p class="homeInfo">
+                A BCA graduate passionate about Web Development and building Clean and
+                Responsive websites using HTML, CSS and JavaScript.
+            </p>
+
+            <div class="socialLinks">
+                <a href="https://github.com/Gagankaushal143"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/gagan-kaushal-b2a522164/"><i
+                        class="fa-brands fa-square-linkedin"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About me</h2>
+        <p>
+            I am Gagan Kaushal, a BCA (Bachelor of Computer Applications) graduate
+            with a strong interest in web development and technology. <br />
+            My expertise lies in creating clean, responsive and user-friendly
+            websites using <strong>HTML, CSS</strong> and
+            <strong>JavaScript</strong>.
+        </p>
+        <p>
+            I'm currently learning <strong>Full Stack Web Development</strong>,
+            exploring backend technologies and databases. <br />
+            Along with front-end skills, I also have knowledge of
+            <strong>MongoDB</strong> and am expanding my understanding of
+            <strong>Node.js</strong> and <strong>Express.js</strong> to build
+            complete web applications.
+        </p>
+        <p>
+            During my journey, I have build several projects, including a
+            <strong>Calculator app</strong>, a <strong>To-Do List</strong>,
+            <strong>Weather application named SkyCast</strong> and this very
+            <strong>Portfolio Website</strong>. <br />
+            My goal is to keep improving my skills, work on innovative projects and
+            grow as a professional developer.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skill-section">
+            <div class="core">
+                <h3>Core Skills:</h3>
+                <ul class="coreList">
+                    <li><i class="fab fa-html5"></i>HTML5</li>
+                    <li><i class="fab fa-css3"></i>CSS3</li>
+                    <li><i class="fab fa-js"></i>JavaScript</li>
+                    <li><i class="fab fa-git"></i>Git</li>
+                    <li><i class="fab fa-github"></i>Github</li>
+                    <li><i class="fa fa-database"></i>MongoDB</li>
+                </ul>
+            </div>
+
+            <div class="learn">
+                <h3>Currently Learning:</h3>
+                <ul class="learningList">
+                    <li><i class="fab fa-react"></i>React</li>
+                    <li><i class="fab fa-node-js"></i>Node.js</li>
+                    <li><i class="fas fa-server"></i>Express.js</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projectCards">
+            <div class="calc">
+                <img src="images/Calculator.png" alt="screenshot of calculator application" />
+                <div class="responsive">
+                    <h3>Simple Calculator</h3>
+                    <p>
+                        A basic calculator built using
+                        <strong>HTML, CSS, and JavaScript</strong>. It performs standard
+                        arithmetic operations like addition, subtraction, multiplication,
+                        and division with a clean and responsive design.
+                    </p>
+                    <ul class="features">
+                        <li>Supports basic arithmetic operations</li>
+                        <li>Responsive UI</li>
+                        <li>Built with HTML, CSS, JavaScript</li>
+                    </ul>
+                    <div class="projectLinks">
+                        <a href="https://gagankaushal143.github.io/Calculator-app/">Live Demo</a>
+                        <a href="https://github.com/Gagankaushal143/Calculator-app.git">Source Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="todo">
+                <img src="images/todo.png" alt="screenshot of todo list " />
+                <div class="responsive">
+                    <h3>To-Do List</h3>
+                    <p>
+                        A responsive Todo List application built using
+                        <strong> HTML, CSS, and JavaScript</strong>. It allows users to
+                        add tasks, delete tasks, and mark tasks as completed for better
+                        productivity. The app also uses localStorage so that tasks remain
+                        saved even after refreshing the page.
+                    </p>
+                    <ul class="features">
+                        <li>Add new tasks</li>
+                        <li>Delete tasks easily</li>
+                        <li>Mark tasks as completed (strike-through)</li>
+                        <li>
+                            Data stored in localStorage (persistent even after page reload)
+                        </li>
+                        <li>Fully responsive design (works on mobile & desktop)</li>
+                    </ul>
+                    <div class="projectLinks">
+                        <a href="https://gagankaushal143.github.io/To-Do-List/">Live Demo</a>
+                        <a href="https://github.com/Gagankaushal143/To-Do-List.git">Source Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skycast">
+                <img src="images/skycast.png" alt="screenshot of SkyCast real time weather app" />
+                <div class="responsive">
+                    <h3>SkyCast | Real Time Weather App</h3>
+                    <p>
+                        SkyCast is a responsive weather application built using HTML, CSS,
+                        and JavaScript, powered by the OpenWeather API. It provides
+                        real-time weather updates for any city worldwide, including
+                        temperature, humidity, wind speed, and "feels like" conditions.
+                        The app also displays sunrise and sunset times, local time of the
+                        searched city, and uses OpenWeather’s integrated icons for a
+                        visually appealing experience.
+                    </p>
+                    <ul class="features">
+                        <li>🌍 Search weather for any city worldwide</li>
+                        <li>🌡️ Displays temperature, feels like, and humidity</li>
+                        <li>🌅 Shows sunrise and sunset times</li>
+                        <li>💨 Provides wind speed details</li>
+                        <li>🕒 Displays local time of the searched city</li>
+                        <li>⛅ Uses OpenWeather integrated icons for dynamic visuals</li>
+                        <li>📱 Fully responsive design</li>
+                    </ul>
+                    <div class="projectLinks">
+                        <a href=" https://gagankaushal143.github.io/SkyCast-Real-Time-weather-app/">Live Demo</a>
+                        <a href="https://github.com/Gagankaushal143/SkyCast-Real-Time-weather-app.git">Source Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p class="contact-intro">
+            Let's connect — send me a message below.
+        </p>
+        <form id="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required />
+            <input type="email" name="email" placeholder="Your Email" required />
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <div class="DMEmail">
+            <p><i class="fa fa-envelope"></i> Or email me directly at</p>
+            <a href="mailto:gagankaushal143@gmail.com">gagankaushal143@gmail.com</a>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>© 2025 Gagan Kaushal</p>
+        <p>Built with ❤️ using HTML, CSS & JavaScript</p>
+        <div class="footer-links">
+            <a href="#home">Home</a> |
+            <a href="#about">About</a> |
+            <a href="#skills">Skills</a> |
+            <a href="#projects">Projects</a>
+        </div>
+    </footer>
+
+    <script>
+        const menuBtn = document.getElementById("menuBtn");
+        const links = document.querySelector(".links");
+        const icon = menuBtn.querySelector("i");
+
+        menuBtn.addEventListener("click", () => {
+            links.classList.toggle("active");
+
+            if (links.classList.contains("active")) {
+                icon.classList.remove("fa-bars");
+                icon.classList.add("fa-xmark");
+            } else {
+                icon.classList.remove("fa-xmark");
+                icon.classList.add("fa-bars");
+            }
+        });
+    </script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script>
+        (function () {
+            emailjs.init("gjLtVRvm5vJoST8c2");
+        })();
+    </script>
+
+
+    <script>
+        document.getElementById("contact-form").addEventListener("submit", function (event) {
+            event.preventDefault();
+
+            emailjs.sendForm("service_pgk1619", "template_tjgsqrj", this)
+                .then(() => {
+                    alert("✔️ Your message has been sent successfully!");
+                    this.reset();
+                }, (error) => {
+                    alert("❌ Oops, something went wrong. Please try again.");
+                    console.error("EmailJS Error:", error);
+                });
+        });
+    </script>
+
+</body>
+
+</html>
