@@ -60,6 +60,6 @@ Simply open index.html in your preferred browser.
 ## 📬 Contact
 
 👨‍💻 Gagan Kaushal
-* **GitHub:** @Gagankaushal143
+* **GitHub:** https://github.com/Gagankaushal143
 * **LinkedIn:** https://www.linkedin.com/in/gagankaushal143/
 * **Email:** gagankaushal143@gmail.com
