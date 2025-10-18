@@ -61,5 +61,5 @@ Simply open index.html in your preferred browser.
 
 👨‍💻 Gagan Kaushal
 * **GitHub:** @Gagankaushal143
-* **LinkedIn:** Gagan Kaushal
+* **LinkedIn:** https://www.linkedin.com/in/gagankaushal143/
 * **Email:** gagankaushal143@gmail.com
